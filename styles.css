@@ -1,0 +1,95 @@
+body {
+  /* background-color: #333; */
+  background-image:radial-gradient(circle, rgba(5,0,36,1) 0%, rgba(103,98,65,1) 31%, rgba(74,134,123,1) 57%, rgba(88,143,102,1) 73%, rgba(5,37,3,1) 100%);
+  margin: 0;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-color: rgb(37, 34, 59);
+  padding: 3rem;
+  border-radius: 3rem 0rem 3rem 0rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.character-amount-container {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border: 1px solid #333;
+  height: 2rem;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  border-radius: .5rem;
+}
+
+.btn {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: #FFFFFF33;
+}
+
+#copy{
+  align-self: center;
+  margin-left: 1rem;
+  padding: .5rem 1rem;
+  background-color: transparent ;
+  border: 2px solid white;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#copy:hover {
+  background-color: #FFFFFF33;
+}
+
+
